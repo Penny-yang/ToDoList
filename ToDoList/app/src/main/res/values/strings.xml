@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="title_activity_addNewItem">Add New Item</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">ADD </string>
+    <string name="edite">EDITE </string>
+    <string name="delete">DELETE</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="category">Category:</string>
+    <string name="additionalinfo">Additional Info:</string>
+    <string name="duedate">Due-date(M/D):</string>
+    <string name="study">Study</string>
+    <string name="work">Work</string>
+    <string name="dailylife">Daily Life</string>
+    <string name="save">SAVE</string>
+    <string-array name="category">
+        <item>Study</item>
+        <item>Work</item>
+        <item>Daily life</item>
+    </string-array>
+
+    <string name="alert_title">Title or date Missing</string>
+    <string name="alert_message">Please enter an Title or Date</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="type_work">Work</string>
+    <string name="type_study">Study</string>
+    <string name="type_life">Daily Life</string>
+    <string name="type_all">All</string>
+    <string name="type_show_title">Filter by Type Categories</string>
+
+    <string-array name="show_note_type">
+        <item>@string/type_all</item>
+        <item>@string/type_study</item>
+        <item>@string/type_work</item>
+        <item>@string/type_life</item>
+
+    </string-array>
+
+    <string-array name="show_note_id">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+
+</resources>
+

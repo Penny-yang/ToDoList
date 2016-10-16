@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView android:id="@+id/todo_category"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
+        android:src="@drawable/study"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/icon"
+        android:id="@+id/linearLayout">
+        <TextView android:id="@+id/todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="aaaaaa" />
+        <TextView android:id="@+id/todo_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="sssssssss" />
+        <TextView android:id="@+id/todo_date"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="hello"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+
+</LinearLayout>
